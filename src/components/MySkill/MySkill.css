@@ -1,0 +1,57 @@
+.my_skill_sec{
+    width: 100%;
+    /* height: 100vh; */
+    /* margin-left: 2rem; */
+}
+
+.my_skill_sec_title{
+    text-transform: capitalize;
+    color: #2674fc;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: underline;
+    margin-left: 5rem; 
+    margin-bottom: 5rem;
+}
+
+
+
+.row{
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+
+
+@media (max-width:1024px) {
+    .row{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:768px) {
+    .row{
+        width: 80%;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width:600px) {
+    .row{
+        margin-left: 2rem;
+        width: 80%;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:380px) {
+    .row{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+.card{
+    width: 20rem;
+    height: 25rem;
+    background-color: #282828;
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+
+.circular_progress{
+   position: relative; 
+   width: 15rem;
+   height: 15rem;
+   background-color: #2773fc;
+   border-radius: 50%;
+   display: grid;
+   place-items: center;
+}
+
+.circular_progress::before{
+   content: "";
+   position: absolute;
+   width: 80%;
+   height: 80%;
+   background-color: #868687;
+   border-radius: 50%;
+}
+
+.value_container{
+    position: relative;
+    font-family: 'Supermercado One', cursive;
+    font-size: 3rem;
+    color: #6a12ca;
+}
+
+
+.card_text{
+    color: #6a12ca; 
+    text-transform: uppercase;
+}
+
+

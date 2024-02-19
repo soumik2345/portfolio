@@ -1,0 +1,17 @@
+.msg{
+    position: absolute;
+    right: 2rem;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.suc{
+    background-color: chartreuse;
+}
+
+.err{
+    background-color: crimson;
+}
