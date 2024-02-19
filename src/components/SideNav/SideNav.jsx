@@ -49,7 +49,7 @@ const SideNav = () => {
 
               <div className="icon_1">
 
-                <a href="https://www.facebook.com" target='_blank'><AiFillFacebook iFillFacebook className='social_icon'/></a>
+                <a href="https://www.facebook.com/piyash.saha.1426" target='_blank'><AiFillFacebook iFillFacebook className='social_icon'/></a>
                 <a href="https://www.instagram.com/" target="_blank">
                 <AiFillInstagram className='social_icon'/>
                 </a>
@@ -62,7 +62,7 @@ const SideNav = () => {
                 <a href="https://www.linkedin.com/" target="_blank">
                 <AiFillLinkedin className='social_icon icon_center'/>
                 </a>
-                <a href="https://github.com/soumik2345" target="_blank"><AiFillGithub className='social_icon icon_center'/></a>
+                <a href="https://github.com/Piyash002" target="_blank"><AiFillGithub className='social_icon icon_center'/></a>
 
 
               </div>
